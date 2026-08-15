@@ -16,7 +16,7 @@ metadata:
   name: nginx-rollout
   namespace: default
 spec:
-  replicas: 3
+  replicas: 9
 
   selector:
     matchLabels:
